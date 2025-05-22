@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "kalameh";
+  src: url("../assets/fonts/Kalameh/Kalameh.eot");
+  src: url("../assets/fonts/Kalameh/Kalameh.woff2") format("woff2"),
+    url("../assets/fonts/Kalameh/Kalameh.woff") format("woff"),
+    url("../assets/fonts/Kalameh/Kalameh.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "vazirmatn";
+  src: url("../assets/fonts/vazirmatn/Vazirmatn-Regular.ttf") format("truetype");
+  font-style: normal;
+}
