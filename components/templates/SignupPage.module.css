@@ -1,0 +1,76 @@
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: "kalameh";
+  color: #282828;
+  margin: 60px 0px 50px;
+}
+
+.container .form {
+  width: 460px;
+  font-family: "vazirmatn";
+  margin: 0px auto;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 40px;
+  padding: 45px 25px;
+  box-shadow: 0px 0px 20px 0px #304ffeaf;
+}
+
+.container .form img {
+  width: 80px;
+  height: 85px;
+  margin-bottom: 10px;
+}
+
+.container .form h2 {
+  font-size: 24px;
+  color: #282828;
+  margin-bottom: 40px;
+}
+
+.container .form .inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .form button {
+  width: 100%;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #55a3f0;
+  border-radius: 15px;
+  border: 2px solid #55a3f0;
+  transition: all 0.2s ease-in;
+  margin-top: 20px;
+}
+
+.container .form button:hover {
+  color: #55a3f0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.container .form p {
+  margin-top: 10px;
+  color: #282828;
+  display: flex;
+  align-items: center;
+}
+
+.container .form p a {
+  color: #55a3f0;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.container .form p a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

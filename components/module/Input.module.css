@@ -1,0 +1,63 @@
+.input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input input {
+  width: 400px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  border: none;
+  color: #28282880;
+  padding: 10px 7px;
+  font-size: 16px;
+  border: 1px solid #f2f2f2;
+}
+
+.input input:focus {
+  outline: none;
+  border: 1px solid #55a3f0;
+}
+
+.input span {
+  display: inline-block;
+  color: #ff0000ca;
+  font-size: 0.9rem;
+  height: 15px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.priceInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.priceInput input {
+  width: 100px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  border: none;
+  color: #28282880;
+  padding: 10px 7px;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+}
+
+.priceInput input:focus {
+  outline: none;
+  border: 1px solid #55a3f0;
+}
+
+.priceInput span {
+  display: inline-block;
+  color: #ff0000ca;
+  font-size: 0.8rem;
+  height: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 140px;
+}

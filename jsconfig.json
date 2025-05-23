@@ -2,10 +2,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/styles/*": ["/styles/*"],
-      "@/modules/*": ["/components/modules/*"],
-      "@/templates/*": ["/components/templates/*"],
-      "@/services/*": ["/services/*"]
+      "@/styles/*": ["./styles/*"],
+      "@/module/*": ["./components/module/*"],
+      "@/templates/*": ["./components/templates/*"],
+      "@/services/*": ["./services/*"],
+      "@/validation/*": ["./validation/*"],
+      "@/configs/*": ["./configs/*"],
+      "@/context/*": ["./context/*"]
     }
   }
 }
