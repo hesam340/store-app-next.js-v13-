@@ -1,0 +1,143 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "vazirmatn";
+  padding: 0px 10px;
+}
+
+.container .search {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container .search input {
+  padding: 18px 40px 17px 7px;
+  border: 1px solid #e4e4e4;
+  color: #00000099;
+  background-color: #fff;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-left: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.container .search input:focus {
+  outline: none;
+}
+
+.container .search::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 35px;
+  width: 2px;
+  left: 0px;
+  bottom: 13px;
+  background-color: #e4e4e4;
+}
+
+.container .search img {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.container .profile {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  margin-right: 0px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-right: none;
+  padding: 0px 40px 0px 7px;
+}
+
+.container .profile .enterProfile {
+  display: flex;
+  align-items: center;
+  margin: 14.5px auto;
+  border: none;
+  border-radius: 16px;
+  padding: 5px 7px;
+  color: #00000099;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+}
+
+.container .profile .enterProfile:hover {
+  background-color: #b9b9b999;
+  color: #000;
+}
+
+.container .profile .exitProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .profile .exitProfile div {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.container .profile .exitProfile img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid #e4e4e4;
+}
+
+.container .profile .exitProfile label {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #007bff;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.container .profile .exitProfile input {
+  display: none;
+}
+
+.container .profile .exitProfile p {
+  font-size: 1rem;
+  color: #282828;
+  margin-right: 20px;
+}
+
+.container .profile .exitProfile button {
+  margin-right: 30px;
+  border: none;
+  border-radius: 16px;
+  padding: 5px 7px;
+  color: #00000099;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+}
+
+.container .profile .exitProfile button:hover {
+  background-color: #b9b9b999;
+  color: #000;
+}

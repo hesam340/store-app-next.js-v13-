@@ -8,7 +8,9 @@
       "@/services/*": ["./services/*"],
       "@/validation/*": ["./validation/*"],
       "@/configs/*": ["./configs/*"],
-      "@/context/*": ["./context/*"]
+      "@/context/*": ["./context/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/constants/*": ["./constants/*"]
     }
   }
 }

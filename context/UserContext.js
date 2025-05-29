@@ -3,14 +3,15 @@ import { createContext, useContext, useEffect, useState } from "react";
 const UserContext = createContext();
 
 function UserProvider({ children }) {
-  const [user, setUser] = useState({ username: "", token: "" });
-
-  useEffect(() => {
-    const data = JSON.parse(localStorage.getItem("data"));
-    if (data) {
-      setUser(data);
-    }
-  }, []);
+  const [user, setUser] = useState(() => {
+    return (
+      JSON.parse(localStorage.getItem("data")) || {
+        username: "",
+        token: "",
+        avatar: "",
+      }
+    );
+  });
 
   useEffect(() => {
     localStorage.setItem("data", JSON.stringify(user));

@@ -1,6 +1,6 @@
 import styles from "@/module/Input.module.css";
 
-function Input({ name, register, errors, placeholder }) {
+function Input({ name, register, errors, placeholder}) {
   return (
     <div
       className={

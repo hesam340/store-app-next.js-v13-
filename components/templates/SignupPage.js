@@ -49,7 +49,7 @@ function SignupPage({ page }) {
         username: data.username,
         token: result.res.token,
       }));
-      router.replace("/");
+      router.replace({ pathname: "/", query: { limit: 10, page: 1 } });
       reset();
     } else if (result?.error?.status === 400) {
       toast.error("نام کاربری یا رمز عبور اشتباه است");

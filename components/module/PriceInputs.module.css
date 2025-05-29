@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.form .inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.form button {
+  border: 1px solid #76de42;
+  background-color: #76de42;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.form button:hover {
+  color: #76de42;
+  background-color: #fff;
+}

@@ -9,6 +9,9 @@ const methodsNeedToken = ["post", "put", "delete"];
 
 api.interceptors.request.use(
   (request) => {
+    if (request.method === "get") {
+      return request;
+    }
     const token = document.cookie.split("=")[1];
     if (token && methodsNeedToken.includes(request.method)) {
       request.headers["Authorization"] = `Bearer ${token}`;

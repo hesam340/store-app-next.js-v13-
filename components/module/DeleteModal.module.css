@@ -1,0 +1,62 @@
+.container {
+  background-color: #e3e3e372;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-family: "vazirmatn";
+}
+
+.container .modal {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 18px 5px #304ffe3c;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.container .modal p {
+  font-size: 1.2rem;
+  color: #282828;
+  margin: 40px 0px 25px;
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+
+.container button {
+  width: 45%;
+  padding: 7px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #f43f5e;
+  border-radius: 15px;
+  border: 2px solid #f43f5e;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.container button:hover {
+  color: #f43f5e;
+  background-color: #fff;
+}
+
+.container button:last-child {
+  color: #282828cc;
+  background-color: #dfdfdf;
+  border: 2px solid #dfdfdf;
+}
+
+.container button:last-child:hover {
+  background-color: #bababa;
+}

@@ -1,0 +1,74 @@
+.container {
+  background-color: #e3e3e372;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-family: "vazirmatn";
+}
+
+.container .modal {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 18px 5px #304ffe3c;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .form h1 {
+  font-size: 1.4rem;
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+.container .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+
+.container button {
+  width: 45%;
+  padding: 7px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #55a3f0;
+  border-radius: 15px;
+  border: 2px solid #55a3f0;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.container button:hover {
+  color: #55a3f0;
+  background-color: #fff;
+}
+
+.container button:last-child {
+  color: #282828cc;
+  background-color: #dfdfdf;
+  border: 2px solid #dfdfdf;
+}
+
+.container button:last-child:hover {
+  background-color: #bababa;
+}
